@@ -33,7 +33,7 @@ admin@haui:/var/log $ sudo cat boot.log | grep -a 'FAILED'
 
 ***Remove plymouth packages:***
 
-``sudo apt-get purge plymouth``
+``sudo apt-get purge plymouth*``
 
 https://github.com/rootzoll/raspiblitz/issues/898
 
