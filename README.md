@@ -24,7 +24,7 @@ sudo ./LCD35-show-V2
 
 It takes over an hour until a ssh connection is possible and the screen is flickering during the boot process.
 
-***Errors in /var/log/boot.log***
+***Errors in /var/log/boot.log:***
 
 ```
 admin@haui:/var/log $ sudo cat boot.log | grep -a 'FAILED'
